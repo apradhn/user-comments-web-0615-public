@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="8" errors="0" failures="0" time="0.206" timestamp="2015-07-16T16:54:34">
+		<testcase classname="Validating User Input" name="#hideErrors should hide all errors when the page loads" time="0.124">
+		</testcase>
+		<testcase classname="Validating User Input" name="#hideForm should also hide the form until you click add comment" time="0.003">
+		</testcase>
+		<testcase classname="Validating User Input" name="#addCommentListener should display the form when you click add comment" time="0.044">
+		</testcase>
+		<testcase classname="Validating User Input" name="#cancelListener should hide form when cancel is pressed" time="0.008">
+		</testcase>
+		<testcase classname="Validating User Input" name="#submitCommentListener Displays errors with invalid inputs #nameValidator should display the name error with a name less than 3 characters" time="0.006">
+		</testcase>
+		<testcase classname="Validating User Input" name="#submitCommentListener Displays errors with invalid inputs #emailValidator should display the email error with an invalid email" time="0.005">
+		</testcase>
+		<testcase classname="Validating User Input" name="#submitCommentListener Displays errors with invalid inputs #commentValidator should display the comment error when no comment is given" time="0.004">
+		</testcase>
+		<testcase classname="Validating User Input" name="#submitCommentListener #addComment should display the user post when properly submitted" time="0.002">
+		</testcase>
+	</testsuite>
+</testsuites>
+
